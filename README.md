@@ -1,3 +1,3 @@
 # Teamwork
 # This is a teamwork project of programming (Gold). To establish a web about ...
-求八比姆涅牛
+group member : Beile Zhang, Yu Tao, Ziyang Jiang, Zihao Wang
