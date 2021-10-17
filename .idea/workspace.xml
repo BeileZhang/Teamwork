@@ -22,6 +22,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1zUrqsmMzA8NY0gi1mAVnMS7yTX" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -83,6 +86,7 @@
       <workItem from="1634470738025" duration="2782000" />
       <workItem from="1634474839842" duration="402000" />
       <workItem from="1634475255568" duration="308000" />
+      <workItem from="1634478416650" duration="3161000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1634462627443</created>
