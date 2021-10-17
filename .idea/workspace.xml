@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e01c3f3-ee00-4906-bd17-af48de78e483" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/11.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/clean-blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/clean-blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/clean-blog.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexx.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,19 @@
     <option name="myCommands">
       <command value="mvn" />
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
