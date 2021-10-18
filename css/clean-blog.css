@@ -179,19 +179,21 @@ footer .copyright {
   padding: 15px 25px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-radius: 0;
+  border-radius: 30px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 button {
   display: block;
   margin: 0 auto;
-  width: 260px;
+  width: 130px;
   height: 40px;
   border-radius: 30px;
-  color: rgb(0, 0, 0);
-  font-size: 25px;
+  color: rgb(219, 216, 216);
+  font-size: 22px;
+  font-style: italic;
+  font-family: 'Lora', 'Times New Roman', serif;
   cursor: pointer;
-  background-color: rgba(49, 35, 10, 0.89);
+  background-color: rgba(73, 51, 13, 0.89);
   float:right
 
 }
