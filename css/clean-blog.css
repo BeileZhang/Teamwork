@@ -25,34 +25,6 @@ a {
   transition: all 0.2s;
 }
 
-::-moz-selection {
-  color: #fff;
-  background: #0085A1;
-  text-shadow: none;
-}
-
-::selection {
-  color: #fff;
-  background: #0085A1;
-  text-shadow: none;
-}
-
-img::-moz-selection {
-  color: #fff;
-  background: transparent;
-}
-
-img::selection {
-  color: #fff;
-  background: transparent;
-}
-
-img::-moz-selection {
-  color: #fff;
-  background: transparent;
-}
-
-
 header.masthead {
   margin-bottom: 50px;
   background: center;
@@ -178,7 +150,5 @@ footer .copyright {
   font-weight: 800;
   padding: 15px 25px;
   letter-spacing: 1px;
-  text-transform: uppercase;
-  border-radius: 0;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
