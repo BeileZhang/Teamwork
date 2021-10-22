@@ -11,11 +11,6 @@ input, button {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-.tip {
-    font-size: 20px;
-    margin: 40px auto 50px;
-    text-align: center;
-}
 
 .content {
     overflow: hidden;
@@ -29,21 +24,6 @@ input, button {
 }
 
 
-.sub-cont {
-    overflow: hidden;
-    position: center;
-    width: 900px;
-    height: 100%;
-    padding-left: 260px;
-    background: #fff;
-    transition: -webkit-transform 0.6s ease-in-out;
-}
-
-.content.s--signup .sub-cont {
-    -webkit-transform: translate3d(-640px, 0, 0);
-    transform: translate3d(-640px, 0, 0);
-}
-
 button {
     display: block;
     margin: 0 auto;
@@ -55,29 +35,6 @@ button {
     cursor: pointer;
 }
 
-.content.s--signup .img:before {
-    -webkit-transform: translate3d(640px, 0, 0);
-    transform: translate3d(640px, 0, 0);
-}
-
-.content.s--signup .img__text.m--up {
-    -webkit-transform: translateX(520px);
-    transform: translateX(520px);
-}
-.content.s--signup .img__text.m--in {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-}
-
-.content.s--signup .img__btn span.m--in {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-}
-
-.content.s--signup .img__btn span.m--up {
-    -webkit-transform: translateY(72px);
-    transform: translateY(72px);
-}
 
 h2 {
     width: 100%;
@@ -134,21 +91,3 @@ input {
     font-weight: bold;
     color: #455a81;
 }
-
-.sign-in {
-    transition-timing-function: ease-out;
-}
-.content.s--signup .sign-in {
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.6s;
-    -webkit-transform: translate3d(640px, 0, 0);
-    transform: translate3d(640px, 0, 0);
-}
-
-.sign-up {
-    -webkit-transform: translate3d(-900px, 0, 0);
-    transform: translate3d(-900px, 0, 0);
-}
-.content.s--signup .sign-up {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);}

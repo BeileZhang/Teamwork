@@ -25,34 +25,6 @@ a {
   transition: all 0.2s;
 }
 
-::-moz-selection {
-  color: #fff;
-  background: #0085A1;
-  text-shadow: none;
-}
-
-::selection {
-  color: #fff;
-  background: #0085A1;
-  text-shadow: none;
-}
-
-img::-moz-selection {
-  color: #fff;
-  background: transparent;
-}
-
-img::selection {
-  color: #fff;
-  background: transparent;
-}
-
-img::-moz-selection {
-  color: #fff;
-  background: transparent;
-}
-
-
 header.masthead {
   margin-bottom: 50px;
   background: center;
@@ -62,43 +34,26 @@ header.masthead {
   background-size: cover;
 }
 
-header.masthead .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #212529;
-  opacity: 0.5;
-}
-
-header.masthead .page-heading,
-header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
   color: white;
 }
 
 @media only screen and (min-width: 768px) {
-  header.masthead .page-heading,
-  header.masthead .post-heading,
   header.masthead .site-heading {
     padding: 200px 0;
   }
 }
 
-header.masthead .page-heading,
 header.masthead .site-heading {
   text-align: center;
 }
 
-header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
   font-size: 50px;
   margin-top: 0;
 }
 
-header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
   font-size: 24px;
   font-weight: 300;
@@ -109,51 +64,25 @@ header.masthead .site-heading .subheading {
 }
 
 @media only screen and (min-width: 768px) {
-  header.masthead .page-heading h1,
   header.masthead .site-heading h1 {
     font-size: 80px;
   }
 }
 
-header.masthead .post-heading h1 {
-  font-size: 35px;
-}
 
-header.masthead .post-heading .meta,
-header.masthead .post-heading .subheading {
+header.masthead.meta,
+header.masthead.subheading {
   line-height: 1.1;
   display: block;
 }
 
-header.masthead .post-heading .subheading {
+header.masthead .subheading {
   font-size: 24px;
   font-weight: 600;
   margin: 10px 0 30px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-header.masthead .post-heading .meta {
-  font-size: 20px;
-  font-weight: 300;
-  font-style: italic;
-  font-family: 'Lora', 'Times New Roman', serif;
-}
-
-header.masthead .post-heading .meta a {
-  color: #fff;
-}
-
-@media only screen and (min-width: 768px) {
-  header.masthead .post-heading h1 {
-    font-size: 55px;
-  }
-  header.masthead .post-heading .subheading {
-    font-size: 30px;
-  }
-  .post-title {
-    font-size: 36px;
-  }
-}
 
 .post-meta {
   font-size: 18px;
@@ -192,8 +121,6 @@ button {
   font-size: 22px;
   font-style: italic;
   font-family: 'Lora', 'Times New Roman', serif;
-  cursor: pointer;
   background-color: rgba(73, 51, 13, 0.89);
   float:right
-
 }
